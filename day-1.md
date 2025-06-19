@@ -1,16 +1,19 @@
-# Daily Learning
-## Morning Planning
+# heading 1
+## heading 2
+### heading 3
+#### heading 4
+##### heading 5
+###### heading 6
 
-## Review
-Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-```bash
-ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+
 ```
-- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
-- [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
-- [ ] Convert my first blog post into an actual webpage.
+$ git init
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+```
 
 
-<img alt="Mona the Octocat" src="https://octodex.github.com/images/original.png"
-width="200" align="right">
+- [x] List syntax is required
+- [] This item is complete
+- [x] This item is not complete
