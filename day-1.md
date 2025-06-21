@@ -1,19 +1,12 @@
-# heading 1
-## heading 2
-### heading 3
-#### heading 4
-##### heading 5
-###### heading 6
+# Daily Learning
+## Morning Planning
+<img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
+- [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
+- [ ] Convert my first blog post into an actual webpage.
+## Review
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
 
-
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-
-
-- [x] List syntax is required
-- [] This item is complete
-- [x] This item is not complete
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
